@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node index.ts",
-    "dev": "nodemon index.ts"
+    "start": "ts-node api/index.ts",
+    "dev": "nodemon api/index.ts"
   },
   "keywords": [],
   "author": "",

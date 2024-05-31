@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const connectDb = async (): Promise<void> => {
   try {
-    const connect = await mongoose.connect(process.env.DB_CONNECTION_STRING as string);
+    const connect = await mongoose.connect("mongodb+srv://DevAJoin:Arun.Kjojo2786@cluster0.slfxf.mongodb.net/e-team?retryWrites=true&w=majority&appName=Cluster0");
     console.log(
       'You successfully connected to MongoDB!',
       connect.connection.host,

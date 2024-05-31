@@ -1,10 +1,10 @@
 import express, { Request, Response } from 'express';
 import dotenv from "dotenv";
 import cors from "cors";
-import connectDb from "./config/dbConnection";
-import sudokuRouter from "./routers/sudokuRouter";
-import errorHandler from "./middlewares/errorHandler";
-import corsOptions from './utils/corsConfig';
+import connectDb from "../config/dbConnection";
+import sudokuRouter from "../routers/sudokuRouter";
+import errorHandler from "../middlewares/errorHandler";
+import corsOptions from '../utils/corsConfig';
 
 dotenv.config();
 
