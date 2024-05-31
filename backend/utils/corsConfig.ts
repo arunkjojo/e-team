@@ -1,6 +1,6 @@
 import { CorsOptions } from 'cors';
 
-const allowedOrigins = ['http://localhost:3000', 'https://localhost:3000']; // Update with your allowed origins
+const allowedOrigins = ['http://localhost:3000', 'https://e-team.vercel.app/', 'http://e-team.vercel.app/']; // Update with your allowed origins
 
 const corsOptions: CorsOptions = {
     origin: function (origin, callback) {

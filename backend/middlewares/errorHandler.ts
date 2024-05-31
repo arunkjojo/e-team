@@ -1,6 +1,6 @@
 
 import { Request, Response, NextFunction } from 'express';
-import constants from "./../constant";
+import constants from "../constant";
 
 const errorHandler = (err: Error, req: Request, res: Response, next: NextFunction) => {
   const statusCode: number = res.statusCode ? res.statusCode : constants.SERVER_ERROR;
